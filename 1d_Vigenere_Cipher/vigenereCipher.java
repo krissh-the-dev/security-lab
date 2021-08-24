@@ -1,5 +1,5 @@
 import java.util.*;
-public class vigenereCipher {
+public class VigenereCipher {
     static String encode(String text, final String key) {
     String res = "";
     text = text.toUpperCase();

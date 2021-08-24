@@ -1,5 +1,5 @@
 import java.util.*;
-public class hillCipher {
+public class HillCipher {
     /* 3x3 key matrix for 3 characters at once */
     public static int[][] keymat = new int[][] { { 1, 2, 1 }, { 2, 3, 2 },
     { 2, 2, 1 } }; /* key inverse matrix */
