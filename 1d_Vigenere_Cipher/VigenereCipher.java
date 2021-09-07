@@ -31,7 +31,7 @@ public class VigenereCipher {
   }
 
   public static void main(String[] args) throws java.lang.Exception {
-    String key = "VIGENERECIPHER";
+    String key = "VIGENERE";
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the string:");
     String msg = sc.nextLine();

@@ -34,7 +34,7 @@ public class CCDemo {
 		System.out.println("Simulating Caesar Cipher\n------------------------");
 		System.out.println("Input : " + msg);
 		System.out.printf("Encrypted Message : ");
-		System.out.println(CaesarCipher.encode(msg, 3));
+		System.out.println(CaesarCipher.encode(msg, 6));
 		System.out.printf("Decrypted Message : ");
 		System.out.println(CaesarCipher.decode(CaesarCipher.encode(msg, 3), 3));
 	}
