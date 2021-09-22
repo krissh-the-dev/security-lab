@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RSA</title>
+</head>
+
+<body>
+	<center>
+		<h1>RSA Algorithm</h1>
+		<h2>Implemented Using HTML & Javascript</h2>
+		<hr>
+		<table>
+			<tr>
+				<td>Enter First Prime Number:</td>
+				<td><input type="number" value="53" id="p"></td>
+			</tr>
+			<tr>
+				<td>Enter Second Prime Number:</td>
+				<td><input type="number" value="59" id="q"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Enter the Message(cipher text):<br>[A=1, B=2,...]</td>
+				<td><input type="number" value="89" id="msg"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Public Key:</td>
+				<td>
+					<p id="publickey"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Exponent:</td>
+				<td>
+					<p id="exponent"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Private Key:</td>
+				<td>
+					<p id="privatekey"></p>
+				</td>
+			</tr>
+			<tr>
+				<td>Cipher Text:</td>
+				<td>
+					<p id="ciphertext"></p>
+				</td>
+			</tr>
+			<tr>
+				<td><button onclick="rsa();">Apply RSA</button></td>
+			</tr>
+		</table>
+	</center>
+</body>
+<script src="./script.js"></script>
+
+</html>
